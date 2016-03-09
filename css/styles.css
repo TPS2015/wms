@@ -371,9 +371,9 @@ h6 {
    4.2.1 BASIC STYLES               
 -----------------------------------------*/
 header {
-	background: url(../images/img_0148.jpg) no-repeat center top fixed;
+	background: url(../images/logo.jpg) no-repeat center top fixed;
 	-webkit-background-size: cover;
-	background-size: cover;
+	background-size: cover
 }
 
 header .vertical-registration-form {
@@ -549,6 +549,14 @@ header .vertical-registration-form {
 /*========================================
    4.5 SECTION: PRICING TABLE               
 ==========================================*/
+
+.section4 {
+    visibility: hidden;
+    position: absolute;
+}
+/*----------------------------------------
+   MADE PRICING TABLE INVISIBLE ABOVE             
+------------------------------------------*/
 .pricing-table {
 	margin-top: 35px;
 }
@@ -666,6 +674,13 @@ object {
 /*========================================
    4.7 SECTION: SCREENSHOTS              
 ==========================================*/
+.section6 {
+    visibility: hidden;
+    position: absolute;
+}
+/*----------------------------------------
+   MADE SCREENSHOTS INVISIBLE ABOVE             
+------------------------------------------*/
 .screenshots {
 	margin-top: 68px;
 }
@@ -690,6 +705,13 @@ object {
 /*========================================
    4.8 SECTION: CLIENTS AND FEEDBACKS              
 ==========================================*/
+.section7 {
+    visibility: hidden;
+    position: absolute;
+}
+/*----------------------------------------
+   MADE CLIENTS AND FEEDBACKS INVISIBLE ABOVE             
+------------------------------------------*/
 /*---------------------------------------
    4.8.1 CLIENTS LOGO        
 -----------------------------------------*/
@@ -790,6 +812,13 @@ object {
 /*========================================
    4.9 SECTION: CALL TO ACTION              
 ==========================================*/
+.cta-section {
+    visibility: hidden;
+    position: absolute;
+}
+/*----------------------------------------
+   MADE CALL TO ACTION INVISIBLE ABOVE             
+------------------------------------------*/
 /*---------------------------------------
    4.9.1 CALL TO ACTION WITH TEXT/BUTTON          
 -----------------------------------------*/
@@ -863,6 +892,7 @@ object {
 	text-transform: uppercase;
 	margin-top: 50px;
 	font-family: 'Raleway', sans-serif;
+    margin-right: 20px;
 }
 
 .contact-link:hover {
